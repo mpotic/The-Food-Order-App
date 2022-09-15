@@ -1,0 +1,51 @@
+.cart {
+	display: flex;
+	justify-content: space-between;
+	width: fit-content;
+	background-color: rgb(109, 29, 29);
+	padding: 10px 25px 10px 25px;
+	border-radius: 25px;
+	border: 1px solid transparent;
+	align-items: center;
+	gap: 15px;
+}
+
+.cart:hover {
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.525);
+	transition: box-shadow 0.2s, border 0.2s;
+	border: whitesmoke 1px solid;
+}
+
+.cart:active,
+.cart:active .icon,
+.cart:active .text,
+.cart:active .quantity {
+	background-color: whitesmoke;
+	color: black;
+}
+
+.icon {
+	color: whitesmoke;
+}
+
+.text {
+	color: whitesmoke;
+}
+
+.quantity {
+	background-color: brown;
+	border-radius: 15px;
+	padding: 4px 10px 4px 10px;
+	width: 20px;
+	color: whitesmoke;
+}
+
+.animateCart {
+	transform: scale(1.06);
+	transition: transform 0.3s;
+}
+
+.stopAnimation{
+	transform: scale(1.0);
+	transition: transform 0.3s;
+}

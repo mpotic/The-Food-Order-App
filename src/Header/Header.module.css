@@ -1,0 +1,18 @@
+.header {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: brown;
+	height: 70px;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 30px;
+	bottom: 0px;
+}
+
+.text {
+	color: whitesmoke;
+	font-size: 26px;
+	font-weight: 700;
+}
